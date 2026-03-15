@@ -1,0 +1,13 @@
+{
+  "name": "review-scraper",
+  "version": "1.0.0",
+  "description": "Scrape App Store reviews for competitive analysis",
+  "scripts": {
+    "scrape": "node src/scrape.js",
+    "report": "node src/report.js"
+  },
+  "dependencies": {
+    "app-store-scraper": "^0.8.0",
+    "google-play-scraper": "^9.1.0"
+  }
+}
